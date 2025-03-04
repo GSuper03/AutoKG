@@ -16,8 +16,8 @@ print(len(predicate_all))
 
 num = 1
 data = open('datas/duie_sample.json','r',encoding='utf-8')
-# with open('prompts/duie-0-shot-prompt.txt', 'w', encoding='utf-8') as f:
-with open('prompts/duie-1-shot-prompt.txt', 'w', encoding='utf-8') as f:
+# with open('prompts/duie-0-shot-prompt-opt.txt', 'w', encoding='utf-8') as f:
+with open('prompts/duie-1-shot-prompt-opt.txt', 'w', encoding='utf-8') as f:
     for line in data.readlines():
         ans_list = []
         dict = json.loads(line)
@@ -26,15 +26,17 @@ with open('prompts/duie-1-shot-prompt.txt', 'w', encoding='utf-8') as f:
         num=num+1
         f.write("\n")
 
-        # # 0-shot
+        # #0-shot
         # prompt =  "已知候选谓词列表： " + str(predicate_all)+" ." + \
-        #           "\n请从以下文本中提取可能的主语-谓语-宾语三元组(SPO三元组)，并以[[主语，谓语，宾语]，...]的形式回答" + \
+        #           "\n请从以下文本中提取可能的主语-谓语-宾语三元组(SPO三元组)，并以[[主语，谓语，宾语], [主语，谓语，宾语], ...]的形式回答，请确保只从候选谓词中选择，不要包含其他信息" + \
+        #           "\n注意：仅允许从候选谓词列表中选择谓语，且每个三元组必须严格符合 [主语, 谓语, 宾语] 格式，不要提取任何与候选谓词无关的内容" + \
         #           "\n给定句子： " + str(dict['text']) + "." + \
         #           "\nSPO三元组: \n"
 
         #1-shot
         prompt = "已知候选谓词列表： " + str(predicate_all) + " ." + \
-                 "\n请从以下文本中提取可能的主语-谓语-宾语三元组(SPO三元组)，并以[[主语，谓语，宾语]，...]的形式回答" + \
+                 "\n请从以下文本中提取可能的主语-谓语-宾语三元组(SPO三元组)，并以[[主语，谓语，宾语], [主语，谓语，宾语], ...]的形式回答，请确保只从候选谓词中选择，不要包含其他信息" + \
+                 "\n注意：仅允许从候选谓词列表中选择谓语，且每个三元组必须严格符合 [主语, 谓语, 宾语] 格式，不要提取任何与候选谓词无关的内容" + \
                  "\n\n例如: "+\
                  "\n给定句子: 641年3月2日文成公主入藏，与松赞干布和亲. " + \
                  "\nSPO三元组: " +\

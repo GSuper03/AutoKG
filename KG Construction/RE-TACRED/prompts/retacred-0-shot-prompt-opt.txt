@@ -1,0 +1,560 @@
+1
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Edwards said he last saw Cerniglia three weeks ago and said he seemed his cheerful self .
+Triples: 
+
+RE-TACRED:
+[Cerniglia, no_relation, he]
+ h:{'name': 'Cerniglia', 'pos': [5, 6]}, t: {'name': 'he', 'pos': [2, 3]}
+
+2
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Baluchistan , where he fought in the '60s and '70s , shares a border with Afghanistan , and in 1978 Rashid was in Kabul for the coup that put the Communists in power .
+Triples: 
+
+RE-TACRED:
+[he, no_relation, Afghanistan]
+ h:{'name': 'he', 'pos': [3, 4]}, t: {'name': 'Afghanistan', 'pos': [15, 16]}
+
+3
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : The last two finalists , Vladimir Ladyzhenskiy from Russia and five-time championship winner Timo Kaukonen from Finland collapsed in the competition after staying in a sauna room with a temperature of 110 degrees Celsius for more than six minutes .
+Triples: 
+
+RE-TACRED:
+[Vladimir Ladyzhenskiy, no_relation, two]
+ h:{'name': 'Vladimir Ladyzhenskiy', 'pos': [5, 7]}, t: {'name': 'two', 'pos': [2, 3]}
+
+4
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Founded in 1947 by two brothers , Eugene and Quentin Fabris , New Fabris started out making sewing machine parts , before branching out into the auto sector , employing up to 800 workers in the 1990s .
+Triples: 
+
+RE-TACRED:
+[Quentin Fabris, no_relation, 1947]
+ h:{'name': 'Quentin Fabris', 'pos': [9, 11]}, t: {'name': '1947', 'pos': [2, 3]}
+
+5
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : The church provided an `` Ethics Order '' from June 1990 that said of Fisher : `` He has shown that he is a fake and a totally irresponsible one at that .
+Triples: 
+
+RE-TACRED:
+[he, no_relation, June]
+ h:{'name': 'he', 'pos': [21, 22]}, t: {'name': 'June', 'pos': [9, 10]}
+
+6
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : About four years ago , he emerged in Santo Domingo saying he wanted to establish a Sephardic Jewish community .
+Triples: 
+
+RE-TACRED:
+[he, per:identity, he]
+ h:{'name': 'he', 'pos': [5, 6]}, t: {'name': 'he', 'pos': [11, 12]}
+
+7
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Ali Mokhtare , who is still employed by the State Department , was investigated in 2005 after a female Halliburton/KBR employee said he sexually assaulted her at the company-run camp in Basra , Iraq .
+Triples: 
+
+RE-TACRED:
+[her, no_relation, Iraq]
+ h:{'name': 'her', 'pos': [25, 26]}, t: {'name': 'Iraq', 'pos': [33, 34]}
+
+8
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Her successful versatility as a player is matched by her ability as a coach , having had success at both the American collegiate level and internationally in Finland .
+Triples: 
+
+RE-TACRED:
+[her, per:countries_of_residence, Finland]
+ h:{'name': 'her', 'pos': [9, 10]}, t: {'name': 'Finland', 'pos': [27, 28]}
+
+9
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : U.S. Immigration and Customs Enforcement agents seized documents and other materials at the Koch Foods plant in southwest Ohio and at Koch Foods Inc. 's Chicago-area headquarters , said Brian Moskowitz , an agent in charge of ICE enforcement for Ohio and Michigan .
+Triples: 
+
+RE-TACRED:
+[Koch Foods, org:stateorprovince_of_branch, Ohio]
+ h:{'name': 'Koch Foods', 'pos': [13, 15]}, t: {'name': 'Ohio', 'pos': [18, 19]}
+
+10
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Inspired by a portrait of the young Chin Dynasty Emperor Qian Long seen on a visit to the NPM , Alessi 's main designer Stefano Giovannoni created the virtual characters `` Mr. and Mrs. Chin '' in The Chin Family Series , which includes salt and pepper grinders , egg cups and kitchen timers .
+Triples: 
+
+RE-TACRED:
+[Alessi, no_relation, Chin]
+ h:{'name': 'Alessi', 'pos': [20, 21]}, t: {'name': 'Chin', 'pos': [34, 35]}
+
+11
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : They finally turned Vagni over to Jolo vice-governor Nur-Ana Sahidulla and he was taken to a military hospital for precautionary medical checks before being flow to nearby Zamboanga city , en route to Manila later in the day .
+Triples: 
+
+RE-TACRED:
+[Vagni, no_relation, Manila]
+ h:{'name': 'Vagni', 'pos': [3, 4]}, t: {'name': 'Manila', 'pos': [33, 34]}
+
+12
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Raised in Queens , he moved to Connecticut in his late 20s after eight years working in Manhattan as an apprentice at a printer and as a store detective in Times Square -- a job he said he hated .
+Triples: 
+
+RE-TACRED:
+[he, no_relation, Manhattan]
+ h:{'name': 'he', 'pos': [35, 36]}, t: {'name': 'Manhattan', 'pos': [17, 18]}
+
+13
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Knox 's sister Deanna , who arrived in Perugia on Wednesday , told reporters : `` My sister is innocent and she will be freed , '' the ANSA news agency reported .
+Triples: 
+
+RE-TACRED:
+[Knox, per:siblings, Deanna]
+ h:{'name': 'Knox', 'pos': [0, 1]}, t: {'name': 'Deanna', 'pos': [3, 4]}
+
+14
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Working with the National Taiwan Symphony Orchestra under the wand of German conductor Heiko Mathias Foerster , Gutman will perform `` Symphony-Concerto for Cello and Orchestra in E Minor , Op. 125 , '' by Russian composer Sergei Prokofiev 's -LRB- 1891-1953 -RRB- ; and `` Symphony No. 4 , '' by Johannes Brahms -LRB- 1833-1897 -RRB- .
+Triples: 
+
+RE-TACRED:
+[National Taiwan Symphony Orchestra, no_relation, Sergei]
+ h:{'name': 'National Taiwan Symphony Orchestra', 'pos': [3, 7]}, t: {'name': 'Sergei', 'pos': [37, 38]}
+
+15
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : The head of the Salvadoran border police , Commissioner Jorge Callejas , said in a telephone interview that he was investigating accusations that a man with a Dominican passport that identified him as Jorge Anibal Torres Puello led a human trafficking ring that recruited Dominican women and under-age Nicaraguan girls by offering them jobs and then putting them to work as prostitutes in El Salvador .
+Triples: 
+
+RE-TACRED:
+[him, no_relation, Dominican]
+ h:{'name': 'him', 'pos': [31, 32]}, t: {'name': 'Dominican', 'pos': [44, 45]}
+
+16
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : The cost of cleaning up existing waste is higher than previously thought The UK 's nuclear waste clean-up programme could cost more than # 70bn , according to the Nuclear Decommissioning Authority -LRB- NDA -RRB- .
+Triples: 
+
+RE-TACRED:
+[Nuclear Decommissioning Authority, no_relation, previously]
+ h:{'name': 'Nuclear Decommissioning Authority', 'pos': [29, 32]}, t: {'name': 'previously', 'pos': [10, 11]}
+
+17
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : On a side note he does do yoga and when you see him in his leotard ... OH MAN !
+Triples: 
+
+RE-TACRED:
+[he, per:identity, his]
+ h:{'name': 'he', 'pos': [4, 5]}, t: {'name': 'his', 'pos': [14, 15]}
+
+18
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : What a complete and utter embarrassment Ranke must be to his parents .
+Triples: 
+
+RE-TACRED:
+[his, per:identity, Ranke]
+ h:{'name': 'his', 'pos': [10, 11]}, t: {'name': 'Ranke', 'pos': [6, 7]}
+
+19
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : A spokesman for the Minas Gerais state police department says laboratory tests will determine if the blood belongs to Eliza Samudio , who has been missing for nearly a month .
+Triples: 
+
+RE-TACRED:
+[Eliza Samudio, no_relation, spokesman]
+ h:{'name': 'Eliza Samudio', 'pos': [19, 21]}, t: {'name': 'spokesman', 'pos': [1, 2]}
+
+20
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Italian Foreign Minister Franco Frattini said in an interview with Italian state TV that no ransom had been paid for Vagni 's release .
+Triples: 
+
+RE-TACRED:
+[Vagni, no_relation, Minister]
+ h:{'name': 'Vagni', 'pos': [20, 21]}, t: {'name': 'Minister', 'pos': [2, 3]}
+
+21
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Cerniglia owned Campania in Fair Lawn , New Jersey , about 25 miles -LRB- 40 kilometers -RRB- west of Manhattan , which he bought in 2006 .
+Triples: 
+
+RE-TACRED:
+[he, no_relation, 25]
+ h:{'name': 'he', 'pos': [22, 23]}, t: {'name': '25', 'pos': [11, 12]}
+
+22
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Against this background , Ouattara 's new United Nations ambassador Youssoufou Bamba gave a stark warning Wednesday as he received his credentials from UN Secretary-General Ban Ki-moon in New York .
+Triples: 
+
+RE-TACRED:
+[his, no_relation, Wednesday]
+ h:{'name': 'his', 'pos': [20, 21]}, t: {'name': 'Wednesday', 'pos': [16, 17]}
+
+23
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : In October , Piedra took out a home-equity line of credit with Wachovia for $ 139,000 .
+Triples: 
+
+RE-TACRED:
+[Piedra, no_relation, October]
+ h:{'name': 'Piedra', 'pos': [3, 4]}, t: {'name': 'October', 'pos': [1, 2]}
+
+24
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : `` Lou Rawls was the face of ` The Evening of Stars ' for a quarter of a century , '' Lomax reminded .
+Triples: 
+
+RE-TACRED:
+[Lomax, no_relation, a]
+ h:{'name': 'Lomax', 'pos': [21, 22]}, t: {'name': 'a', 'pos': [14, 15]}
+
+25
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : `` They are furious about the dichotomy of experiences -- their shares fall , yet CEO pay still rises , '' said Paul Hodgson , a senior research associate at the Corporate Library , a governance research group .
+Triples: 
+
+RE-TACRED:
+[Corporate Library, no_relation, Paul]
+ h:{'name': 'Corporate Library', 'pos': [31, 33]}, t: {'name': 'Paul', 'pos': [22, 23]}
+
+26
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Pastor Ivan Henderson told mourners at Daniels ' funeral Monday in Oklahoma City to pray that investigators find the killer and that people find the strength to forgive him or her .
+Triples: 
+
+RE-TACRED:
+[her, no_relation, Oklahoma]
+ h:{'name': 'her', 'pos': [30, 31]}, t: {'name': 'Oklahoma', 'pos': [11, 12]}
+
+27
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Norris Church Mailer , who was the sixth and final wife of Pulitzer Prize-winning novelist Norman Mailer and was also a model , a painter and a respected author in her own right , died Nov 21 at her home in Brooklyn , NY .
+Triples: 
+
+RE-TACRED:
+[Norris Church Mailer, per:title, painter]
+ h:{'name': 'Norris Church Mailer', 'pos': [0, 3]}, t: {'name': 'painter', 'pos': [24, 25]}
+
+28
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Sottsass , who also designed items for Alessi and Artemide , kept up his work until his death .
+Triples: 
+
+RE-TACRED:
+[Alessi, no_relation, Artemide]
+ h:{'name': 'Alessi', 'pos': [7, 8]}, t: {'name': 'Artemide', 'pos': [9, 10]}
+
+29
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Sarah Kunstler said she does n't know the details of the Richmond case , but added , `` I know that my father would have been concerned that the young men arrested would have been convicted in the court of public opinion before they ever made it into the courtroom .
+Triples: 
+
+RE-TACRED:
+[she, no_relation, Richmond]
+ h:{'name': 'she', 'pos': [3, 4]}, t: {'name': 'Richmond', 'pos': [11, 12]}
+
+30
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : He also had all his personal property seized and was deprived of his political rights for life .
+Triples: 
+
+RE-TACRED:
+[his, per:identity, his]
+ h:{'name': 'his', 'pos': [12, 13]}, t: {'name': 'his', 'pos': [4, 5]}
+
+31
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : PILOT SON OF ISRAELI ASTRONAUT DIES IN JET CRASH Lt Assaf Ramon , the son of Israel 's first astronaut , Col Ilan Ramon , who died in the space shuttle Columbia disaster in 2003 , was killed Sunday when an F16-A plane he was piloting crashed in the hills south of Hebron in the West Bank .
+Triples: 
+
+RE-TACRED:
+[Assaf Ramon, per:countries_of_residence, Israel]
+ h:{'name': 'Assaf Ramon', 'pos': [10, 12]}, t: {'name': 'Israel', 'pos': [16, 17]}
+
+32
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : China will maintain a minimum purchase price for wheat , safeguarding 25-30 percent profit margins for farmers , according to the National Development and Reform Commission -LRB- NDRC -RRB- , the country 's top economic planner .
+Triples: 
+
+RE-TACRED:
+[National Development and Reform Commission, org:country_of_branch, China]
+ h:{'name': 'National Development and Reform Commission', 'pos': [21, 26]}, t: {'name': 'China', 'pos': [0, 1]}
+
+33
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : China 's total grain demand is expected to reach 572.5 million tonnes by 2020 , and to maintain a food self-sufficiency rate of 95 percent , at least 540 million tonnes of grain would be needed by then , Zhang Ping , minister in charge of the National Development and Reform Commission -LRB- NDRC -RRB- said last Thursday .
+Triples: 
+
+RE-TACRED:
+[National Development and Reform Commission, no_relation, 572.5]
+ h:{'name': 'National Development and Reform Commission', 'pos': [47, 52]}, t: {'name': '572.5', 'pos': [9, 10]}
+
+34
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : However , the government let the deal expire in December 2001 amid protests from local politicians and workers at a Semen Gresik unit , Semen Padang in West Sumatra .
+Triples: 
+
+RE-TACRED:
+[Semen Gresik, no_relation, Semen]
+ h:{'name': 'Semen Gresik', 'pos': [20, 22]}, t: {'name': 'Semen', 'pos': [24, 25]}
+
+35
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : The Third Guard Division , founded in 1941 , has participated in more than 2,000 major battles and operations .
+Triples: 
+
+RE-TACRED:
+[Third Guard Division, no_relation, 2,000]
+ h:{'name': 'Third Guard Division', 'pos': [1, 4]}, t: {'name': '2,000', 'pos': [14, 15]}
+
+36
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Nine-year-old Ruben van Assouw , the sole survivor of a Libyan airliner crash , arrived back home in the Netherlands on Saturday , three days after the disaster that killed his parents , brother and 100 others , officials said .
+Triples: 
+
+RE-TACRED:
+[Ruben van Assouw, no_relation, disaster]
+ h:{'name': 'Ruben van Assouw', 'pos': [1, 4]}, t: {'name': 'disaster', 'pos': [27, 28]}
+
+37
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Consumer traffic at America 's retail stores declined 23.7 percent and sales fell 5.3 percent compared with the period a year ago as concerns about the economy and snowstorms kept many shoppers at home , according to ShopperTrak , a research company .
+Triples: 
+
+RE-TACRED:
+[ShopperTrak, org:country_of_branch, America]
+ h:{'name': 'ShopperTrak', 'pos': [37, 38]}, t: {'name': 'America', 'pos': [3, 4]}
+
+38
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : Trend , an Azerbaijani wire service , on Thursday became a full member of the Organization of Asia - Pacific News Agencies -LRB- OANA -RRB- .
+Triples: 
+
+RE-TACRED:
+[Organization of Asia - Pacific News Agencies, org:members, Trend]
+ h:{'name': 'Organization of Asia - Pacific News Agencies', 'pos': [15, 22]}, t: {'name': 'Trend', 'pos': [0, 1]}
+
+39
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : More than 230 tourism executives , government officials and analysts attended the Pacific Asia Travel Association meeting Tuesday and Wednesday , billed as the region 's first to seek practical solutions to climate change .
+Triples: 
+
+RE-TACRED:
+[Pacific Asia Travel Association, no_relation, Tuesday]
+ h:{'name': 'Pacific Asia Travel Association', 'pos': [12, 16]}, t: {'name': 'Tuesday', 'pos': [17, 18]}
+
+40
+The list of predicates: ['org:political/religious_affiliation', 'per:countries_of_residence', 'per:children', 'per:parents', 'no_relation', 'org:top_members/employees', 'org:stateorprovince_of_branch', 'org:member_of', 'per:date_of_death', 'per:origin', 'per:other_family', 'per:city_of_birth', 'per:date_of_birth', 'org:alternate_names', 'per:schools_attended', 'per:title', 'per:cause_of_death', 'per:cities_of_residence', 'per:country_of_death', 'org:city_of_branch', 'per:employee_of', 'per:identity', 'per:siblings', 'per:age', 'org:number_of_employees/members', 'org:shareholders', 'per:stateorprovince_of_birth', 'org:members', 'per:spouse', 'per:country_of_birth', 'per:charges', 'org:founded', 'per:stateorprovinces_of_residence', 'per:city_of_death', 'per:stateorprovince_of_death', 'org:website', 'org:dissolved', 'org:country_of_branch', 'per:religion', 'org:founded_by'] .
+What Subject-Predicate-Object triples are included in the following sentence? Please return the possible answers according to the list above. Require the answer only in the form: [subject, predicate, object]
+Follow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]
+The given sentence is : As Chiafari drove , he thought , `` Wait a minute , that 's Travis . ''
+Triples: 
+
+RE-TACRED:
+[Chiafari, no_relation, Travis]
+ h:{'name': 'Chiafari', 'pos': [1, 2]}, t: {'name': 'Travis', 'pos': [14, 15]}
+

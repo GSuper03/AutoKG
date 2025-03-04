@@ -13,8 +13,8 @@ print(len(predicate_all))
 
 num = 1
 data = open('datas/retacred_sample.json', 'r', encoding='utf-8')
-with open('prompts/retacred-0-shot-prompt.txt', 'w') as f:
-# with open('prompts/retacred-1-shot-prompt.txt', 'w') as f:
+with open('prompts/retacred-0-shot-prompt-opt.txt', 'w') as f:
+# with open('prompts/retacred-1-shot-prompt-opt.txt', 'w') as f:
     for line in data.readlines():
         ans_list = []
         dict = json.loads(line)
@@ -28,12 +28,20 @@ with open('prompts/retacred-0-shot-prompt.txt', 'w') as f:
                   "\nWhat Subject-Predicate-Object triples are included in the following sentence? " \
                  "Please return the possible answers according to the list above. " \
                      "Require the answer only in the form: [subject, predicate, object]" +\
+                 '''\nFollow these rules strictly:
+                   1. Only use predicates from the list above. Do NOT generate predicates outside this list
+                   2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+                   3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]''' +\
                  "\nThe given sentence is : " + str(dict['tokens'])  + \
                  "\nTriples: \n"
 
         # # 1-shot
-        # prompt = "The list of predicates : " + str(predicate_all) + " ." \
+        # prompt = "The list of predicates: " + str(predicate_all) + " ." \
         #          "\nWhat Subject-Predicate-Object triples are included in the following sentence? Please return the answers only in the form: [subject, predicate, object]" + \
+        #          '''\nFollow these rules strictly:
+        #           1. Only use predicates from the list above. Do NOT generate predicates outside this list
+        #           2. If no suitable predicate exists to describe the relationship between the subject and object, use "no_relation"
+        #           3. Return answers in the exact format: [[subject, predicate, object], [subject, predicate, object], ...]''' +\
         #          "\n\nExample: "+\
         #          "\nThe given sentence is : Piedra reported to the IRS that his practice gave $ 107,862 to Scientology groups in 2003 ." + \
         #          "\nTriples: " +\
